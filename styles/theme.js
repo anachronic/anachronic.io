@@ -3,5 +3,6 @@ export const theme = {
     purple: '#7957d5',
     purpleInvert: '#fff',
     purpleDark: '#6943d0',
+    link: '#3273dc',
   },
 }
