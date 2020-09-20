@@ -49,25 +49,19 @@ export const Navbar = () => {
     <Nav>
       <NavLeft>
         <Link href="/" passHref>
-          <NavLink className="item">link</NavLink>
+          <NavLink className="item">Home</NavLink>
         </Link>
-
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
+        <Link href="/articles" passHref>
+          <NavLink className="item">Articles</NavLink>
+        </Link>
+        <Link href="/wiki" passHref>
+          <NavLink className="item">Wiki</NavLink>
+        </Link>
       </NavLeft>
-      <NavCenter>
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
-      </NavCenter>
-      <NavRight>
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
-        <div className="item">Hola</div>
-      </NavRight>
+
+      <NavCenter></NavCenter>
+
+      <NavRight></NavRight>
     </Nav>
   )
 }
