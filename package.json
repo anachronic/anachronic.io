@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -11,7 +11,10 @@
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
+    "clsx": "^1.1.1",
+    "dayjs": "^1.8.36",
     "emotion-theming": "^10.0.27",
+    "gray-matter": "^4.0.2",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
